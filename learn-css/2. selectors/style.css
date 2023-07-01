@@ -1,0 +1,27 @@
+/* *{
+    font-family: lucida;
+    color: green;
+} */
+
+body{
+    font-size: 18px;
+}
+.blue {
+    color: blue;
+}
+.monospace{
+    font-family: monospace;
+}
+#first,#second{
+    font-family: cursive;
+    color: brown;
+}
+.highlight{
+    background-color: coral;
+    font-weight: bolder;
+    color: black;
+}
+h2:hover{
+    color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}

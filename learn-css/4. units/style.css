@@ -1,0 +1,16 @@
+main{
+    border: 5px dotted blueviolet;
+    border-radius: 50px;
+    width: 50%;
+}
+section{
+    border: 3px dashed green;
+    width: 98.5%;
+    border-radius: 200px;
+}
+header{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 2rem;
+}

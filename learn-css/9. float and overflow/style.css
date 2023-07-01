@@ -1,0 +1,23 @@
+.p1{
+    
+}
+
+.img1{
+    margin: 3px 10px 0px 3px;
+    float: left;
+    }
+
+.p2{
+    
+}
+
+.img2{
+    float: right;
+}
+
+.container{
+    border: 2px solid black;
+    width: 70%;
+    height: 500px;
+    overflow: auto;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;600&family=Noto+Sans+Bengali&family=Silkscreen&display=swap');
+
+h1{
+    color: purple;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: palevioletred;
+    text-shadow: 4px 6px 10px red;
+    text-transform: capitalize;
+    padding: 0px 0px 10px 0px;
+    font-family: 'Silkscreen', cursive;
+}
+
+p{
+    color: black;
+    font-weight: 800;
+    text-indent: 30px;
+    text-align: justify;
+    line-height: 1.4rem;
+}
+
+a{
+    color: rgb(211, 28, 135);
+    font-style: italic;
+    font-weight: bolder;
+    
+}

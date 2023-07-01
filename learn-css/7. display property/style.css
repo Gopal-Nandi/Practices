@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    display: inline-block;
+    color: purple;
+
+}
+
+.blue{
+    color: blue;
+}
+
+a {
+    width: 250px;
+    display: inline-block;
+
+}
+
+ul {
+    background-color: black;
+    color: azure;
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 15px;
+    cursor: default;
+    list-style: circle;
+}
+
+li {
+    display: inline-block;
+    width: 30%;
+    
+}
+
+li:hover {
+    color: gold;
+    text-shadow: 6px 6px 6px red;
+    cursor: pointer;
+}

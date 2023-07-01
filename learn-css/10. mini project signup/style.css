@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@400;600&family=Noto+Sans+Bengali&family=Roboto+Slab:wght@400;800&family=Silkscreen&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #eba79e8c, #40ade0d3);
+    
+}
+
+.inner-box{
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.171), rgba(255, 255, 255, 0.596));
+    backdrop-filter: blur(3.5px);
+    border-radius: 8px;
+    width: 300px;
+    height: 370px;
+    padding: 20px 30px 20px;
+    margin: 0px auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    box-shadow: 3px 3px 5px rgb(66, 66, 66);
+    z-index: 1;
+    font-family: 'Roboto Slab', serif;
+    
+}
+
+.header{
+    padding: 0px;
+}
+
+.header h1{
+    color: #303030;
+}
+
+.header p{
+   color: #505050; 
+}
+
+.login{
+    padding: 7px 0px;
+}
+
+.login p{
+    padding: 5px 0px;
+}
+
+.login p label{
+    display: block;
+    margin: 0px 0px 4px;
+    
+}
+
+.login p input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+.login p input[type="submit"] {
+    background-color: #40aee0;
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.login p input[type="submit"]:hover{
+    background-color: #5797b4;
+    box-shadow: 3px 3px 6px rgb(107, 107, 107);
+}
+
+.footer-submit{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.footer-submit a{
+    color: #3383a8;
+}
+
+.bubble1{
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.171), rgba(236, 236, 236, 0.836));
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+
+.bubble2{
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.151), rgba(236, 236, 236, 0.836));
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+}
+
+.bubble3{
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.171), rgba(236, 236, 236, 0.836));
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+}
+
+.bubble4{
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.151), rgba(236, 236, 236, 0.836));
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    bottom: 75%;
+    right: 40%;
+}
+
+.bubble5{
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.171), rgba(236, 236, 236, 0.836));
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.bubble6{
+    background: linear-gradient(to top right, rgba(255, 255, 255, 0.151), rgba(236, 236, 236, 0.836));
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: absolute;
+    top: 23%;
+    right: 15%;
+}
