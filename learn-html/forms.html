@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopal Form</title>
+</head>
+<body>
+    <h1>Enter Your Details Here</h1>
+<form action="">
+    <label for="firstname">First Name:</label>
+    <input id="firstname" name="firstname" type="text">
+    <label for="lastname">Last Name:</label>
+    <input id="lastname" name="lastname" type="text">
+    <br>
+    <label for="address">Address:</label>
+    <textarea id="address" name="address" cols="30" rows="3"></textarea>
+    <br>
+    <label for="areapin">Pin code:</label>
+    <input id="areapin" name="areapin" type="number">
+    <label for="dob">Date of Birth:</label>
+    <input id="dob" name="dob" min="1999-01-01" max="2024-01-01" type="date">
+    <label for="telephone">Contact Number:</label>
+    <input id="telephone" name="telephone" type="tel" pattern="[0-9]{10,}" title="Invalid Input">
+    <label for="email">Email:</label>
+    <input id="email" name="email" type="email">
+    <label for="pwd">Password:</label>
+    <input id="pwd" name="password" type="password" pattern=".{8,}" title="minimum 8 digit">
+    <p>Please enter your food preference</p>
+    <label for="veg">Veg</label>
+    <input id="veg" name="meal" value="veg" type="radio">
+    <label for="nonveg"> NonVeg</label>
+    <input id="nonveg" name="meal" value="nonveg" type="radio">
+    <br><br>
+    <label for="color">Your Favorite color</label>
+    <input id="color" name="color" type="color">
+    <label for="car">Choose a car</label>
+    <select id="car" name="car">
+        <option value="null"></option>
+        <option value="marutisuzuki">Maruti Suzuki</option>
+        <option value="bmw">BMW</option>
+        <option value="bikam">Bikram</option>
+        <option value="tatamagic">TATA Magic</option>
+    </select>
+    <p>Choose Any two shape</p>
+    <label for="circle">Circle</label>
+    <input id="circle" name="shape" value="circle" type="checkbox">
+    <label for="triangle">Triangle</label>
+    <input id="triangle" name="shape" value="triangle" type="checkbox">
+    <label for="square">Square</label>
+    <input id="square" name="shape" value="square" type="checkbox">
+    <label for="rhombus">Rhombus</label>
+    <input id="rhombus" name="shape" value="rhombus" type="checkbox">
+    <br><br>
+    <input type="button" onclick="alert('Thank you for visiting')" value="Touch me">
+    <br><br><br>
+    <input type="reset">
+    <input type="submit">
+</form>
+</body>
+</html>

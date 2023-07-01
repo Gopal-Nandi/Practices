@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resolution Test</title>
+</head>
+<body>
+
+    <!-- <img width="100%"
+    srcset="images/mountainmid.jpg 2x, images/mountainlow.jpg 1x, images/mountainhigh.jpg 3x"
+    src="images/mountainhigh.jpg" alt="Image of a mountain"> -->
+
+    <img width="100%"
+    srcset="images/mountain-desktop.jpg 1000w,
+            images/mountain-tab.jpg 750w,
+            images/mountain-phone.jpg 420w"
+    sizes="(max-width: 420px) 420px, (max-width: 750px) 750px,
+    1000px"
+    src="images/mountainhigh.jpg" alt="Image of a mountain">
+</body>
+</html>
