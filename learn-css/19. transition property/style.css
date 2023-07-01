@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.box {
+    background-color: teal;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+    transition-duration: 1s;
+    transition-property: transform, border-radius, transform;
+    transition-delay: 0.1s;
+    transition-timing-function: linear;
+    
+}
+
+.box:hover {
+    background-color: purple;
+    border-radius: 50%;
+    transform: rotate(180deg);
+}
+
+.list {
+    padding: 20px;
+    margin-left: 30px;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 65%;
+    justify-content: center;
+    background-image: url(./assests/wood.jpg);
+    background-size: cover;
+    
+}
+
+.item {
+    font-size: 2rem;
+    padding: 8px 16px;
+    transition: 0.3s cubic-bezier(.63,.05,.43,2.2);
+    transition-delay: 0.06s;
+    border-radius: 50%;
+    background-color: rgba(121, 121, 121, 0.233);
+    font-weight: 600;
+    color: rgb(177, 116, 89);
+    text-shadow: 3px 0 0 rgb(0, 0, 0);
+        
+}
+
+.item:hover {
+    background-color: black;
+    color: rgb(156, 134, 116);
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 12px 2px rgba(85, 58, 49, 0.699);
+    transform: translateY(-10px);
+}
+
+.item:active {
+    transform: scale(0.8);
+    cursor: grab;
+    box-shadow: none;
+}

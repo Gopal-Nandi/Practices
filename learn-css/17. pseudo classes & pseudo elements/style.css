@@ -1,0 +1,55 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+}
+
+.primary-btn:link {
+    color: green;
+    padding: 10px;
+}
+
+.primary-btn:visited {
+    color: rgb(211, 140, 92);
+}
+
+.primary-btn:hover {
+    color: red;
+    background-color: yellow;
+}
+
+.primary-btn:active {
+    color: rgb(255, 255, 255);
+    background-color: blue;
+    border: 4px solid red;
+}
+
+/* ul li:first-child {
+    color: rgb(40, 115, 182);
+}
+
+ul li:last-child {
+    color: rgb(94, 40, 182);
+} */
+
+/* ul li:nth-child(4n + 5) {
+    background-color: rgb(131, 131, 131)
+}
+
+h2::first-letter {
+    font-size: 3rem;
+}
+
+p::first-line {
+    background-color: rgba(128, 128, 0, 0.438);
+} */
+
+h3::after {
+    content: '*';
+    color: red;
+}
+
+h3::before {
+    content: 'Start';
+    margin-right: 5px;
+    color: red;
+}

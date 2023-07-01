@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(29, 29, 29);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    padding: 10px;
+}
+
+.text {
+    opacity: 0;
+}
+
+.sun {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px yellow, 0 0 300px 30px yellow,
+    0 0 50px 10px #ff5100;
+    background-image: url(./assets/sun.png);
+    background-size: cover;
+    position: absolute;
+    
+}
+
+.planet {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-name: orbit;
+    animation-duration: 12s;
+    /* animation-delay: 2s; */
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    /* animation-fill-mode: forwards; */
+}
+
+.mercury-orbit {
+    width: 100px;
+    height: 100px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 5s linear infinite;
+    border-radius: 50%;
+    padding-top: 10px;
+    position: absolute;
+}
+
+.venus-orbit {
+    width: 170px;
+    height: 170px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 10s linear infinite;
+    border-radius: 50%;
+    padding-top: 25px;
+    position: absolute;
+}
+
+.earth-orbit {
+    width: 270px;
+    height: 270px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 15s linear infinite;
+    border-radius: 50%;
+    padding-top: 65px;
+    position: absolute;
+}
+
+.moon-orbit {
+    width: 30px;
+    height: 30px;
+    /* border: 1px solid wheat; */
+    border-radius: 50%;
+    position: relative;
+    right: 5px;
+    top: -5px;
+    animation: orbit 3s linear infinite;
+}
+
+.moon {
+    background-image: url(./assets/moon.png);
+    background-size: cover;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    animation: orbit 2s linear infinite;
+    position: relative;
+    right: 7px;
+    
+}
+
+.mars-orbit {
+    width: 360px;
+    height: 360px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 20s linear infinite;
+    border-radius: 50%;
+    padding-top: 110px;
+    position: absolute;
+}
+
+.jupiter-orbit {
+    width: 440px;
+    height: 440px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 25s linear infinite;
+    border-radius: 50%;
+    padding-top: 140px;
+    position: absolute;
+}
+
+.saturn-orbit {
+    width: 510px;
+    height: 510px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 30s linear infinite;
+    border-radius: 50%;
+    padding-top: 120px;
+    position: absolute;
+}
+
+.uranus-orbit {
+    width: 580px;
+    height: 580px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 35s linear infinite;
+    border-radius: 50%;
+    padding-top: 170px;
+    position: absolute;
+}
+
+.neptune-orbit {
+    width: 650px;
+    height: 650px;
+    border: 2px solid rgba(255, 255, 255, 0.027);
+    animation: orbit 40s linear infinite;
+    border-radius: 50%;
+    padding-top: 400px;
+    position: absolute;
+}
+
+@keyframes orbit {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+    
+}
+
+/* @keyframes slide-in {
+    from {
+        transform: translate(-400px);
+    } 
+    to {
+        transform: translate(200px);
+    }   
+}
+
+@keyframes circles {
+    0% {
+        transform: translate(0, 0);
+    }    
+    25% {
+        transform: translate(200px, 0);
+    }    
+    50% {
+        transform: translate(200px, 200px);
+    }    
+    75% {
+        transform: translate(0, 200px);
+    }    
+} */
+
+@media screen and (max-width: 700px) {
+    body {
+        transform: scale(0.5);
+    }
+
+    .text {
+        color: blanchedalmond;
+        font-family: Arial, Helvetica, sans-serif;
+        align-self: flex-end;
+        padding-bottom: 20px;
+        font-size: 2rem;
+        position: relative;
+        text-decoration-line: underline;
+        bottom: -150px;
+        opacity: 100%;
+    }
+
+}
